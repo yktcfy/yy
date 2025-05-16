@@ -39,7 +39,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           cat zubo.txt > zubo_备份.txt
           bash ./zubo2.sh
-          cat txt/上海电信.txt > zubo.txt
+          cat txt/江苏电信.txt > zubo.txt
           
       - name: 更新组播源
         run: |
