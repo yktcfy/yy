@@ -20,6 +20,13 @@ case $city_choice in
         city="天津联通"
         stream="rtp/225.1.1.149:5002"
         ;;
+    0)
+        # 逐个处理{ }内每个选项
+        for option in {1..22}; do
+          bash "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
+        done
+        exit 0
+        ;;        
 esac
 
 # 使用城市名作为默认文件名，格式为 CityName.ip
