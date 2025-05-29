@@ -64,3 +64,7 @@ http://ipipip/rtp/239.16.20.193:11930
 http://ipipip/rtp/239.16.20.206:12060
 #EXTINF:-1 tvg-id="许昌综合" tvg-name="许昌综合" tvg-logo="https://live.fanmingming.com/tv/许昌综合.png" group-title="卫视高清",许昌综合
 http://ipipip/rtp/239.16.10.47:2000
+#EXTINF:-1 tvg-id="国学" tvg-name="国学" tvg-logo="https://live.fanmingming.com/tv/国学.png" group-title="卫视高清",国学
+http://ipipip/rtp/239.16.20.232:12320
+#EXTINF:-1 tvg-id="中华功夫" tvg-name="中华功夫" tvg-logo="https://live.fanmingming.com/tv/中华功夫.png" group-title="卫视高清",中华功夫
+http://ipipip/rtp/239.16.20.173:11730
