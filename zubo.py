@@ -125,11 +125,11 @@ def main():
     for config_file in glob.glob(os.path.join('ip', '*_config.txt')):
         multicast_province(config_file)
     file_contents = []
-    for file_path in glob.glob('txt/*_dianxin.txt'):
+    for file_path in glob.glob('组播_*_dianxin.txt'):
         with open(file_path, 'r', encoding="utf-8") as f:
             content = f.read()
             file_contents.append(content)
-    for file_path in glob.glob('txt/*_liantong.txt'):
+    for file_path in glob.glob('组播_*_liantong.txt'):
         with open(file_path, 'r', encoding="utf-8") as f:
             content = f.read()
             file_contents.append(content)
@@ -137,7 +137,7 @@ def main():
     current_time = now.strftime("%Y/%m/%d %H:%M")
     with open("zubo_all.txt", "w", encoding="utf-8") as f:
         f.write(f"{current_time}更新,#genre#\n")
-        f.write(f"直播源均来自网络，不得商用，仅供学习交流使用。http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8\n")
+        f.write(f"直播源均来自网络，不得商用，仅供学习交流使用,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8\n")
         f.write('\n'.join(file_contents))
     txt_to_m3u("zubo_all.txt", "zubo_all.m3u")
     print(f"组播地址获取完成")
