@@ -1,4 +1,4 @@
-公告,直播源均来自网络，不得商用，仅供学习交流使用。, 2025/06/19 更新,#genre#
+公告,直播源均来自网络，不得商用，仅供学习交流使用。, 2025/06/22 更新,#genre#
 #EXTINF:-1 tvg-id="河南都市" tvg-name="河南都市" tvg-logo="https://live.fanmingming.com/tv/河南都市.png" group-title="卫视高清",河南都市
 #EXTINF:-1 tvg-id="河南民生" tvg-name="河南民生" tvg-logo="https://live.fanmingming.com/tv/河南民生.png" group-title="卫视高清",河南民生
 #EXTINF:-1 tvg-id="河南法治" tvg-name="河南法治" tvg-logo="https://live.fanmingming.com/tv/河南法治.png" group-title="卫视高清",河南法治
