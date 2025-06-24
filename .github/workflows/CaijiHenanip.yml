@@ -41,7 +41,7 @@ jobs:
           bash ./CaijiHenanip.sh
           time=$(date +%Y/%m/%d)
           echo ""公告","直播源均来自网络，不得商用，仅供学习交流使用。", $time 更新,#genre#" > zubo.txt
-          cat txt/Henan_dianxinn.txt
+          cat txt/Henan_dianxin.txt > zubo.txt
           
       - name: 更新源
         run: |
