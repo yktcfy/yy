@@ -2,7 +2,7 @@ name: CaijiHenanip
 
 on:
   #schedule:
-    #- cron: "01 20 * * *"
+    #- cron: "01 22 * * *"
   workflow_dispatch:
 
 jobs:
